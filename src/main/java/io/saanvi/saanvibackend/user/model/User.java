@@ -107,7 +107,7 @@ public class User extends BaseEntity implements UserDetails {
     public void setEmail(String email) {
 
         if (email == null || !email.matches("^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$")) {
-            throw new InvalidParamsProvidedException("Baba Email Provided ");
+            throw new InvalidParamsProvidedException("Invalid Email");
         }
         this.email = email;
 
