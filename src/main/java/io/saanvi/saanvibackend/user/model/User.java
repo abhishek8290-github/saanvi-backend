@@ -1,8 +1,4 @@
 package io.saanvi.saanvibackend.user.model;
-
-
-
-
 import io.saanvi.saanvibackend.core.base.BaseEntity;
 import io.saanvi.saanvibackend.core.exception.common.InvalidParamsProvidedException;
 import jakarta.persistence.Column;
