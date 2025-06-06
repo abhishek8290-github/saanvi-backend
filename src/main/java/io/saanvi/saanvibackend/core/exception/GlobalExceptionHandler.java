@@ -25,7 +25,7 @@ public class GlobalExceptionHandler {
     logger.error("Caught in global: {}", ex.getClass().getSimpleName(), ex);
 
     ErrorResponseDto errorResponse = new ErrorResponseDto(
-        "An unexpected error occurred ",
+        "An unexpected error occurred",
         "INTERNAL_SERVER_ERROR",
         HttpStatus.INTERNAL_SERVER_ERROR.value());
 
