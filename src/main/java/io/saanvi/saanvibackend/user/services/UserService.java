@@ -2,7 +2,6 @@ package io.saanvi.saanvibackend.user.services;
 
 
 import io.saanvi.saanvibackend.core.base.BaseService;
-import io.saanvi.saanvibackend.core.exception.common.InvalidParamsProvidedException;
 import io.saanvi.saanvibackend.core.exception.common.UserAlreadyExistsException;
 import io.saanvi.saanvibackend.core.exception.common.UserNotFoundException;
 import io.saanvi.saanvibackend.shared.utils.hashUtil;
@@ -15,11 +14,11 @@ import java.util.Optional;
 
 
 @Service
-public class userService extends BaseService<User, String> {
+public class UserService extends BaseService<User, String> {
 
     public final UserRepository userRepository;
 
-    public userService(UserRepository userRepository) {
+    public UserService(UserRepository userRepository) {
        this.userRepository = userRepository;
     }
 
