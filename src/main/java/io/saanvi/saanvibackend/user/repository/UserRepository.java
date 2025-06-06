@@ -1,4 +1,4 @@
-package io.saanvi.saanvibackend.user.model.repository;
+package io.saanvi.saanvibackend.user.repository;
 import io.saanvi.saanvibackend.core.base.BaseRepository;
 import io.saanvi.saanvibackend.user.model.User;
 import org.springframework.stereotype.Repository;
